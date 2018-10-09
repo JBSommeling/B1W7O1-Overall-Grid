@@ -54,7 +54,7 @@ h2 {
 					.header nav ul li { 
 						display: inline-block;
 						position: relative;
-						left: 30%;
+						left: 35%;
 						float: left;
 						line-height: 90px;
 					}
@@ -93,10 +93,11 @@ h2 {
 			border-width: 10px;
 		}
 
-				.banner-content { /*tekst ietsjes omlaag */
+				.banner-content { 
 					grid-column: 2 / 3;
 					grid-row: 2 / 3;
 					width: 275px;
+					margin-top: 30px;
 				}
 
 
@@ -251,6 +252,3 @@ h2 {
 			position: relative;
 			top:15%;
 		}
-
-/*
-Banner tekst omlaag positioneren*/
