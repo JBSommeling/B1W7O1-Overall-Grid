@@ -1,0 +1,88 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+.container-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto auto;
+	margin: 0 auto;
+	width: 1100px;
+}
+
+
+.header {
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+	background-image: url(../IMG/header_bg.png);
+	background-repeat: no-repeat;
+	background-size: 1100px 100%;
+	width: 1100px;
+	height: 150px;
+	display: inline-block;
+	line-height: 150px;
+}
+
+.header nav {
+	display: inline-block;
+	line-height: 150px;
+}
+
+.header nav ul {
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+}
+
+.header nav ul li { /*Text moet ietsjes omhoog van navigation*/
+	display: inline-block;
+	position: relative;
+	left: 30%;
+}
+
+.header nav ul li a {
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.header img {
+	position: relative;
+	top: 20%;
+	left: 5%;
+
+}
+
+.banner {
+	background-image: url(../IMG/banner_bg.png);
+	background-repeat: no-repeat;
+	background-size: 1100px 100%;
+	width: 1100px;
+	height: 500px;
+	grid-column: 1 / 3;
+	grid-row: 2 / 3;
+}
+
+.content {
+	grid-column: 1 / 3;
+	grid-row: 3 / 4;
+	height: 500px;
+	width: 1100px;
+}
+
+.footer {
+	grid-column: 1 / 3;
+	grid-row:  4 / 5;
+	height: 100px;
+	width: 1100px;
+	background-image: url(../IMG/footer_bg.png);
+	background-repeat: no-repeat;
+	background-size: 1100px 100%;
+}
