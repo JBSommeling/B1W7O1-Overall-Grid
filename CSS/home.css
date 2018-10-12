@@ -84,6 +84,16 @@ h2 {
 			left: 0%;
 		}
 
+		#buttonPrev {
+			position: relative;
+			top:9%;
+		}
+
+		#buttonNext {
+			position: relative;
+			top: 9%;
+		}
+
 				.banner-content { 
 					grid-column: 2 / 3;
 					grid-row: 2 / 3;
