@@ -80,12 +80,10 @@ h2 {
 
 		.banner img {
 			position: relative;
-			top: 10%;
-			left: 2%;
-			width: 700px;
-			border-style: solid;
-			border-color: white;
-			border-width: 10px;
+			top: 5%;
+			left: 4%;
+			width: 690px;
+			height: 320px;
 		}
 
 				.banner-content { 

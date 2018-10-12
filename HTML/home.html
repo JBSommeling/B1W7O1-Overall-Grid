@@ -4,6 +4,7 @@
 	<title>Over'All: Home</title>
 	<link rel="stylesheet" type="text/css" href="../CSS/home.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script type="text/javascript" src="../JS/home.js"></script>
 </head>
 <body>
 <div class="container-grid">
@@ -20,7 +21,14 @@
 			</ul>
 		</nav>
 	</div>
-	<div class="banner"><img src="../img/banner.jpg" alt=""></div>
+	<div class="banner">
+
+		<button id="buttonPrev" onclick="prev()"> Prev </button>
+		<img id="slider" src="../img/banner.jpg" alt="" width="690px" height="320px">
+		<button id="buttonNext" onclick="next()"> Next </button>
+
+
+	</div>
 	<div class="banner-content">
 		<h1> Let's talk business </h1>
 		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
